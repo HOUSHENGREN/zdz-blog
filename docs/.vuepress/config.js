@@ -40,13 +40,21 @@ module.exports = {
                 children: [
                     { title: "web打印表的实现", path: "/experience/print" },
                     { title: "文字滚动组件实现", path: "/experience/scroll-text" },
-                    { title: "qr-code的二次封装", path: "/experience/qrcode" }
+                    { title: "qr-code的二次封装", path: "/experience/qrcode" },
+                    { title: "踩坑", path: "/experience/false" },
                 ],
             },
             {
                 title: "学习",
+                path: '/study/ps',
                 collapsable: false, // 不折叠
-                children: [],
+                children: [
+                    { title: "PS-精修人像学习笔记", path: "/study/ps" },
+                    { title: "Blender-学习笔记", path: "/study/blender" },
+                    { title: "echart-学习笔记", path: "/study/echart" },
+                    { title: "第一天 Blender操作 | 大帅老猿threejs特训", path: "/study/three/001" },
+                    { title: "第二天 创建自己的展馆模型 | 大帅老猿threejs特训", path: "/study/three/002" },
+                ],
             },
             {
                 title: "面试",
@@ -54,11 +62,31 @@ module.exports = {
                 children: [],
             },
             {
+                title: "算法",
+                path: '/algorithm/001',
+                collapsable: false, // 不折叠
+                children: [
+                    { title: "对象数组去重", path: "/algorithm/001" },
+                ],
+            },
+            {
+                title: "高效开发",
+                path: '/efficient/keyboard-man',
+                collapsable: false, // 不折叠
+                children: [
+                    { title: "键盘侠-番外篇", path: "/efficient/keyboard-man" },
+                    { title: "vscode中使用vim", path: "/efficient/vscode-vim" },
+                    { title: "vscode插件及新电脑配置", path: "/efficient/vscode-config" },
+                ],
+            },
+            {
                 title: "世界观",
                 path: '/notes/2023-03-20',
                 collapsable: false, // 不折叠
                 children: [
-                    { title: "谈学习", path: "/notes/2023-03-20" }
+                    { title: "谈学习", path: "/notes/2023-03-20" },
+                    { title: "0-1原则", path: "/notes/2023-03-26" },
+                    { title: "及时止损", path: "/notes/2023-04-01" },
                 ],
             }
         ]
