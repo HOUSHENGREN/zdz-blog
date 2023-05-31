@@ -1,0 +1,298 @@
+---
+date: 2022-09-02
+title: echart踩坑记录(二)
+category: screen
+cover: /mdImages/013.webp
+tags:
+  - vue
+  - screen project
+  - echart
+---
+
+# api一览图
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e3dfb7a6e961409cb26fccf7584d7e45~tplv-k3u1fbpfcp-watermark.image?)
+
+补充：
+
+grid 网格，可以设置当前图的上下左右距离。
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03e2a41901b8497cb684b4983d5e4eda~tplv-k3u1fbpfcp-watermark.image?)
+ 
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7afb095997fb44fbb4c0ef644370e021~tplv-k3u1fbpfcp-watermark.image?)
+
+参考视频
+
+[10分钟掌握Echarts自定义样式诀窍搞定复杂酷炫图表_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Zq4y13735/?buvid=XY4EEE643075042AEEA5A07FB5CE9B18391E4&is_story_h5=false&mid=SQd2thnhl6H9cugGFfq7Iw%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=286b0962-f2aa-463e-8afa-73f8e235250d&share_source=WEIXIN&share_tag=s_i&timestamp=1679675346&unique_k=EYlBziG&up_id=40018594&vd_source=9aab42de6453d89ff2a1518cbe145ee3)
+
+[ECharts数据可视化项目-大屏数据可视化展示-echarts 图表制作-pink老师直播课更新完毕）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1v7411R7mp/?spm_id_from=333.788.b_7265636f5f6c697374.1&vd_source=9aab42de6453d89ff2a1518cbe145ee3)
+
+# pink-ECharts数据可视化项目-笔记
+https://www.bilibili.com/video/BV1v7411R7mp/?p=53&spm_id_from=333.788.top_right_bar_window_history.content.click
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d555cb9adb954e3687257f23fb209678~tplv-k3u1fbpfcp-watermark.image?)
+## 使用技术
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a187343a65d141bc8f03f50331a73e77~tplv-k3u1fbpfcp-watermark.image?)
+## flexable.js与rem
+1920 分24等分，1rem = 80px
+
+vscode可以安装cssrem插件，快速计算rem值.安装成功后，点击`设置-扩展设置-root-font-size`，设置为80.
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b22207cf99d5427e909838f2047c9cb4~tplv-k3u1fbpfcp-watermark.image?)
+
+
+## 大屏背景图样式
+
+让图片不重复、靠顶部且居中。
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f69c082447d848458685728bff0de5f1~tplv-k3u1fbpfcp-watermark.image?)
+
+## 头部背景图样式
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9cb00b978a6a4ccfa276acf4a599f218~tplv-k3u1fbpfcp-watermark.image?)
+
+## grid 网格表示范围
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/917d69c2678f4381be487a1074251ae3~tplv-k3u1fbpfcp-watermark.image?)
+grid. containLabel  =》grid 区域是否包含坐标轴的[刻度标签]。通常设置为true，否则左侧坐标可能会被挤出canvas盒子。
+(https://echarts.apache.org/zh/option.html#yAxis.axisLabel)。
+
+## x、y轴必定有一个轴是【数】值，而另一个轴是文字。
+感性的认识，应该如此。因而便可理解，为啥xy轴type可以选择value、categories。
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7791d767ef364fd18ca3cc0bb8c9131a~tplv-k3u1fbpfcp-watermark.image?)
+
+## 设置线与坐标轴是否有缝隙 
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/83a6481a49b543d4ba44f39b2361b86e~tplv-k3u1fbpfcp-watermark.image?)
+
+## 堆叠数据
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/037bf9311f0a4165a9b08075cd880e43~tplv-k3u1fbpfcp-watermark.image?)
+## color 设置线的颜色数组
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/096f024c00bb489e91873e18c55b878b~tplv-k3u1fbpfcp-watermark.image?)
+
+## 修改x轴刻度相关样式
+axisLabel
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bbf483bd5a6a4af8b182183b96df767d~tplv-k3u1fbpfcp-watermark.image?)
+# 修改x轴轴线样式
+axisLine
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9cc38bf39f2943e88f42d3d3bcd26082~tplv-k3u1fbpfcp-watermark.image?)
+# 修改x轴刻度线的文字的样式
+axisTick 如下图横坐标每个圆柱下面有个短尾巴
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/da4e353e0f314c4a983ab5febe51ec8d~tplv-k3u1fbpfcp-watermark.image?)
+
+# 分割线样式
+
+![1679930597005.jpg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/98d1ca77755f45e793006cbc28a2a8b9~tplv-k3u1fbpfcp-watermark.image?)
+
+# itemStyle 圆柱样式
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2220fef770a2476f86de34bb4cc0c39f~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0950ae08b6084f79b3538fa38d6e7032~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8be9089111094fd6abdc389714e94c2f~tplv-k3u1fbpfcp-watermark.image?)
+# tooltip.axisPointer 指示器
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6bddf493a9544953b4ad9161e5b60a0b~tplv-k3u1fbpfcp-watermark.image?)
+
+线-line
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/903297eb25e04a5b9529c8fc2f5a84f8~tplv-k3u1fbpfcp-watermark.image?)
+
+shadow
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5aa73f2a95ae46e9be60d157f31feaba~tplv-k3u1fbpfcp-watermark.image?)
+
+cross
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/30ca425b085246ad9d0adcf0b26d9192~tplv-k3u1fbpfcp-watermark.image?)
+# 修改圆柱宽度
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ef692348c2d434bb99a5860a9d2756f~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/99531be662dd43c8825e2fe7bf97a6e5~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f31aafcd5a4049cb9da9d4a38d571d4c~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2514c5bcfa544fe9a71373adafead911~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66acaaab265a412c9432a80e23d2f4ce~tplv-k3u1fbpfcp-watermark.image?)
+
+# echart 跟随窗口大小变换
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a75945f1122e40b5bdc78db9ae00ebfe~tplv-k3u1fbpfcp-watermark.image?)
+
+![003.gif](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/46c91af0b9b24818affb426e6b3867b1~tplv-k3u1fbpfcp-watermark.image?)
+# 隐藏x轴线
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/669b79541f9e4af2809aa56120989082~tplv-k3u1fbpfcp-watermark.image?)
+# 隐藏y轴刻度
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cb4b52366e3a48b28ef44f157049c13f~tplv-k3u1fbpfcp-watermark.image?)
+
+# 修改柱子之间的距离、宽度
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/72b586f620084060a58822f7d890e9ec~tplv-k3u1fbpfcp-watermark.image?)
+# label设置柱子上的文字
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/77463e33a0f4404eafd691bc40596c82~tplv-k3u1fbpfcp-watermark.image?)
+
+# 柱状图，设置柱子不同的颜色
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/69f378e21b8c4017a18bb1652cbaa45d~tplv-k3u1fbpfcp-watermark.image?)
+
+打印出params，发现是上面有dataIndex，利用这个index，实现不同样式
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3c2d4971c4a94f65832d61f3517890eb~tplv-k3u1fbpfcp-watermark.image?)
+
+文档居然没说可以接受函数。这里params表示当前柱子对象。
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/1bf2a15d5bcb4e0aaac77aeb8312590d~tplv-k3u1fbpfcp-watermark.image?)
+
+# 只有边框的空心柱子
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/65373d738fa746d98d0a5bf609b88570~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8d48023cbb164e7697343bd88b2d3785~tplv-k3u1fbpfcp-watermark.image?)
+
+# 左边轴右侧数据是如何实现的
+yAxis接受长度为2的数组，分别表示图的左右两边y轴
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c4565b0d212447e2a4665a4541347cd7~tplv-k3u1fbpfcp-watermark.image?)
+
+# series 的 柱子叠加
+yAxisIndex 类似于 z-index
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/daf1e313d2eb4c0eb9ce27111827e8c5~tplv-k3u1fbpfcp-watermark.image?)
+
+# 网格边框样式【边框显示、隐藏，边框线颜色】
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f561a3f6b03742b99c886ee8635b4bf4~tplv-k3u1fbpfcp-watermark.image?)
+
+# 修改legend 文字样式
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9aaf694387bf4f52a3ebef3ccae800f6~tplv-k3u1fbpfcp-watermark.image?)
+
+# xAxis. boundaryGap 
+刻度是否作为轴的分隔线
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/99903b36028b466585b259a2ba214e72~tplv-k3u1fbpfcp-watermark.image?)
+
+# 网格的横线 样式【y轴分割线】
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4cddc316e6e24fd99826da5acb704ad9~tplv-k3u1fbpfcp-watermark.image?)
+
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/41125991616d4e04a21f6017586aa461~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b01a300faa444e94bda5d29be5b849d7~tplv-k3u1fbpfcp-watermark.image?)
+# 折线图，把折线改成圆滑的线
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f91dbab2ab594ec98fbb76bed30e4aaf~tplv-k3u1fbpfcp-watermark.image?)
+
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/245ea7bca12345bdb8bd49c6a8c0108f~tplv-k3u1fbpfcp-watermark.image?)
+
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dcdb8ce6bc16442d8faedb51443554ac~tplv-k3u1fbpfcp-watermark.image?)
+# 折线图，给折线加不同的颜色
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e474cbb3e7c141fa850605ec14c2f00c~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3df53c64ca10471498ed1fd48b1e3a7b~tplv-k3u1fbpfcp-watermark.image?)
+
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7d6bbcbfa20d4c87b215e3ef2aef7670~tplv-k3u1fbpfcp-watermark.image?)
+
+直接在series的item数据项里面改也行
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f924cef96974b3d8b1b019d645215b9~tplv-k3u1fbpfcp-watermark.image?)
+
+# legend
+如果series有值，则legend可以不需要写data属性
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a785a14fd07b46f09a1511cc19438173~tplv-k3u1fbpfcp-watermark.image?)
+
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a42b873da1c4448a9a2292b05298a3a3~tplv-k3u1fbpfcp-watermark.image?)
+# 折线图，修改折线粗细
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dc30dd974de34eccab1d4c27a4633794~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16e6a4cb736e4cffba64d1ac2c841a38~tplv-k3u1fbpfcp-watermark.image?)
+
+
+# 折线图，折线的样式修改
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/99ee07c75dc2419f8cc9494d40585d77~tplv-k3u1fbpfcp-watermark.image?)
+
+# 折线图，修改折线区域的样式
+可以设置area填充区域的颜色
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7b398e993e0a49b7bbae1de3b5920f52~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d0155f3e6ae44bfbb47d5eeb5fc31c6d~tplv-k3u1fbpfcp-watermark.image?)
+# 设置渐变色
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/87fbc523b0184d03a73626964285fe29~tplv-k3u1fbpfcp-watermark.image?)
+
+# 设置鼠标移到gird时的拐点大小、鼠标经过时才显示
+写在series的item的symbol中。【我的第一感觉以为是tooltip，因为tooltip.axisPointer 指示器
+可以设置type，指定指示器类型，感觉应该也是指示器上设置拐点；仔细一想，series每个item都可以设置拐点，那当然是每个item单独设置了】
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0e394794253c4da6aa075a8ec7d1574e~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dc9d1c8503e34377bbe170f1eed300d7~tplv-k3u1fbpfcp-watermark.image?)
+
+# 设置拐点样式
+拐点边框宽度、拐点颜色、拐点边框颜色
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/78739ece87b0424e9b1aa55cb35305fc~tplv-k3u1fbpfcp-watermark.image?)
+
+可以实现类似于灯光的周围半透明效果
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d2deb6b87aba477fa6e87dd55663c087~tplv-k3u1fbpfcp-watermark.image?)
+
+# tooltip触发方式
+得看是什么图
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c2575fb12ff540b2a33a36019168bd1b~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ae7a5cccd676432ea5fb92d42184532e~tplv-k3u1fbpfcp-watermark.image?)
+# tooltip的formatter含义
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b53d22c2db9b488183c90cbfe00c426d~tplv-k3u1fbpfcp-watermark.image?)
+
+# 环形饼状图，鼠标移上去，图形中间显示文字
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2159e73dbb364531a0ea183cd939f67c~tplv-k3u1fbpfcp-watermark.image?)
+
+# 饼状图的legend图标样式修改
+按之前的其它知识类比，我以为应该是在labelStyle里面改，结果不是。
+ 
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5aca3b1deee748b1bea24ac3f137cbc7~tplv-k3u1fbpfcp-watermark.image?)
+
+# 饼状图，文字是否居中显示
+不居中
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0ab6b4a42b7f4901b965bb7f6b74cd8f~tplv-k3u1fbpfcp-watermark.image?)
+居中
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/962765f53efc40c29a75f55e5350c5a8~tplv-k3u1fbpfcp-watermark.image?)
+
+# 饼状图，连接图形和文字的线是否显示
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/114c82a156054386a3667cc29f188dee~tplv-k3u1fbpfcp-watermark.image?)
+# 饼状图的这个参数是啥意思
+饼状图中心的位置调整
+
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ec0c98270f304102a1861c3848a6c44a~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e5aa0fa0dfeb434b87ee3b03d7aac0d3~tplv-k3u1fbpfcp-watermark.image?)
+# 南丁格尔玫瑰图 
+有两种模式：面积、半径
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d8cadf88a3054c15b7bf10fb795e4fda~tplv-k3u1fbpfcp-watermark.image?)
+
+![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f3c703fe2a294ed9bb56b060c9d849bf~tplv-k3u1fbpfcp-watermark.image?)
+
+# 饼状图、图形连接的文字的样式
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e16f09e163c64d83874fd87ae04ef488~tplv-k3u1fbpfcp-watermark.image?)
+
+# 2d 地图
+
+修改地图大小比例： zoom：1.2
+
+[Examples - Apache ECharts](https://echarts.apache.org/examples/zh/editor.html?c=map-polygon)
