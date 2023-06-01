@@ -38,7 +38,7 @@
     },
     themeConfig: {
         logo: '/avatar.jpg',
-        hostname: 'https://github.com/HOUSHENGREN/zdz-blog',
+        hostname: 'https://houshengren.github.io/zdz-blog',
         // hostname: 'https://80shuo.com',
         nav: [
         { text: '🏠 Home', link: '/' },
@@ -133,12 +133,12 @@
             }
         ],
         sitemap: {
-            hostname: 'https://github.com/HOUSHENGREN/zdz-blog',
+            hostname: 'https://houshengren.github.io/zdz-blog',
             // hostname: 'https://80shuo.com',
             exclude: ['/404.html']
         },
         feed: {
-            canonical_base: 'https://github.com/HOUSHENGREN/zdz-blog',
+            canonical_base: 'https://houshengren.github.io/zdz-blog',
             // canonical_base: 'http://80shuo.com',
         },
         comment: {

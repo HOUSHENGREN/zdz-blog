@@ -4,7 +4,7 @@ title: 二维码组件二次封装
 category: experience
 cover: /mdImages/003.webp
 tags:
-  - VuePress
+  - vue
 ---
 
 实际开发中使用qrcode做二维码时，我发现基本用不到它的其它属性。所以可以索性封装起来。
