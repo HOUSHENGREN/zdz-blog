@@ -11,7 +11,7 @@
     module.exports = {
     base: '/zdz-blog/',
     title: "zdz's blogs",
-    description: '博客',
+    description: '😁🤞😁',
     port: 8080,
     theme: 'vuepress-theme-maker',
     head: [

@@ -5,7 +5,6 @@ category: efficient
 cover: /mdImages/007.webp
 tags:
   - vscode
-  - window
 ---
 
 # 插件

@@ -1,6 +1,6 @@
 ---
 date: 2022-08-11
-title: vscode插件及新电脑配置
+title: vscode如何使用vim
 category: efficient
 cover: /mdImages/008.webp
 tags:
