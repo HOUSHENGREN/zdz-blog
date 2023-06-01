@@ -143,9 +143,9 @@
         },
         comment: {
             service: 'valine',
-            appId: '1oeLbJt8p8rzkCaguAkbm0sp-gzGzoHsz',
+            appId: '6y5EwczPCBohCmqUTky596J0-gzGzoHsz',
             // appId: '1oeLbJt8p8rzkCaguAkbm0sp-gzGzoHsz',
-            appKey: 'jotwOTiL9EkOSYmsp21OcdaM',
+            appKey: 'Kbid9kWoMzbWT2hKpo2blYM3',
             // appKey: 'jotwOTiL9EkOSYmsp21OcdaM',
             placeholder: 'Leave a comment',
             visitor: true,
