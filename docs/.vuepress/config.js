@@ -1,21 +1,21 @@
-    const { path } = require('@vuepress/shared-utils')
-    const THEME_PATH = '/vuepress-theme/'
+const { path } = require('@vuepress/shared-utils')
+const THEME_PATH = '/vuepress-theme/'
 
-    /**
-     * /vuepress-thepress-thme/:year/:month/:day/:slug.html
-     * 
-     * 该url对应plugin/gallery
-     * 
-     */
+/**
+ * /vuepress-thepress-thme/:year/:month/:day/:slug.html
+ * 
+ * 该url对应plugin/gallery
+ * 
+ */
 
-    module.exports = {
+module.exports = {
     base: '/zdz-blog/',
     title: "zdz's blogs",
-    description: '😁🤞😁',
+    description: '😁🤞😁',  
     port: 8080,
     theme: 'vuepress-theme-maker',
     head: [
-        ['link', { rel: 'icon', href: '/logo.jpg' }],
+        ['link', { rel: 'icon', href: '/avatar.jpg' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#607d8b' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -307,6 +307,42 @@
         pagination: {
             perPagePosts: 10,
         },
-        }]
+        }],
+        // 动态网站标题
+        [
+            'dynamic-title',
+            {
+               showIcon: '/avatar.icon',
+            //    showIcon: '/favicon.ico',
+               showText: '(/≧▽≦/)😁😁',
+            //    hideIcon: '/failure.ico',
+               hideText: '爱我，别走😭😭',
+            //    hideText: '(●—●)喔哟，崩溃啦！',
+               recoverTime: 2000,
+            },
+        ],
+        [
+            'cursor-effects',
+            {
+               size: 2, // 粒子大小
+               shape: 'star', // 粒子形状（可选 'star' 和 'circle'）
+               zIndex: 999999999,
+            },
+        ],
+
+        // 音乐播放器 => vue2.7.14版本冲突，用不了
+        // [
+        //     'meting',
+        //     {
+        //        meting: {
+        //           server: 'netease', // 音乐源
+        //           type: 'playlist', // 资源类型
+        //           mid: '2007976796', // 资源 id
+        //        },
+        //     //    aplayer: {
+        //     //       lrcType: 3,
+        //     //    },
+        //     },
+        // ]
     ]
-    }
+}

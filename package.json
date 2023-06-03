@@ -12,6 +12,12 @@
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.9",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.3.3",
     "vuepress-theme-maker": "^1.2.3"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
   }
 }

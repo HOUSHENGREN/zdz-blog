@@ -5,7 +5,7 @@ category: experience
 cover: /mdImages/001.webp
 tags:
   - Vue
-  - Javascript
+  - JavaScript
 ---
 
 > 一些易错及特殊问题的踩坑记录

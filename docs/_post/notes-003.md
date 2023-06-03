@@ -9,13 +9,13 @@ tags:
 
 > 及时止损 与 超前布局
 
-https://www.bilibili.com/video/BV1EL411R7iq/?-Arouter=story&buvid=XY4EEE643075042AEEA5A07FB5CE9B18391E4&is_story_h5=true&mid=SQd2thnhl6H9cugGFfq7Iw%3D%3D&p=1&plat_id=163&share_from=ugc&share_medium=android&share_plat=android&share_session_id=29bf27b7-dace-4029-842a-1c3a1b363df1&share_source=WEIXIN&share_tag=s_i&timestamp=1680345771&unique_k=XYdDg8v&up_id=1250115313
+[下棋 逃脱的关键在于 有没有一个人在远方等你](https://www.bilibili.com/video/BV1EL411R7iq/?-Arouter=story&buvid=XY4EEE643075042AEEA5A07FB5CE9B18391E4&is_story_h5=true&mid=SQd2thnhl6H9cugGFfq7Iw%3D%3D&p=1&plat_id=163&share_from=ugc&share_medium=android&share_plat=android&share_session_id=29bf27b7-dace-4029-842a-1c3a1b363df1&share_source=WEIXIN&share_tag=s_i&timestamp=1680345771&unique_k=XYdDg8v&up_id=1250115313)
 
 无意间刷到这个视频，给了一点我启发。
 
 被生活压得透不过气，苟延残喘地活着，最后走向的，就是视频中右上角的处境，失败了一生。
 
-如果一开始就即使止损，也就不至于失去得越来越多。
+如果一开始就及时止损，也就不至于失去得越来越多。
 
 要学会田忌赛马，失小得大。
 

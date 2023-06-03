@@ -4,7 +4,7 @@ title: 对象数组去重
 category: algorithm
 cover: /mdImages/005.webp
 tags:
-  - VuePress
+  - algorithm
 ---
 
 昨天的工作中遇到这个问题，一开始想能不能用Set集合解决，然后觉得不大行，因为对象是引用类型不是值类型，所以纠结了一下，用了一个比较啰嗦的方法。如下

@@ -39,4 +39,4 @@ tags:
 
 心态很重要，职场人不要太敏感，要明白，我只是来打工的，那些不志同道合的人，你大概率以后不会再有联系，干嘛在乎别人、don’t care。 
 
-https://www.bilibili.com/video/BV1gY4y1X75n/?spm_id_from=333.880.my_history.page.click
+=> [油管破千万播放，一个来自7年前老人的人生建议，学习真的很重要！](https://www.bilibili.com/video/BV1gY4y1X75n/?spm_id_from=333.880.my_history.page.click)

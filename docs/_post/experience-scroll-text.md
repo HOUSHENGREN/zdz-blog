@@ -4,7 +4,8 @@ title: 大屏项目的文字滚动组件实现
 category: experience
 cover: /mdImages/004.webp
 tags:
-  - VuePress
+  - Vue
+  - JavaScript
 ---
 
 这部分是同事的代码。

@@ -4,7 +4,8 @@ title: web打印
 category: experience
 cover: /mdImages/002.webp
 tags:
-  - VuePress
+  - Vue
+  - JavaScript
 ---
 
 首先，打印肯定可以直接window.print()就能打印，这没什么好讲，所以，在这里我探讨的是如何实现定制化的表。
