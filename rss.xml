@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>zdz&apos;s blogs</title>
+        <link>https://houshengren.github.io/zdz-blog</link>
+        <description>😁🤞😁</description>
+        <lastBuildDate>Sun, 04 Jun 2023 06:18:24 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://houshengren.github.io/zdz-blog/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[对象数组去重]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html</guid>
+            <pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[空气炸锅从入门到入门]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html</guid>
+            <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[键盘侠番外篇]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html</guid>
+            <pubDate>Fri, 14 Oct 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vscode插件及新电脑配置]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9909670b73e0406583c8e96b113c7b03~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[vscode如何使用vim]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b2e0ca15b22465dad9fffb498f47f5c~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[踩坑记录]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html</guid>
+            <pubDate>Tue, 11 Oct 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bbef75c8e19a4f5f822224f138c18f36~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[web打印]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/961e45899a544ee890b7dc99a1863474~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[二维码组件二次封装]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html</guid>
+            <pubDate>Mon, 02 May 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[大屏项目的文字滚动组件实现]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html</guid>
+            <pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/648e654442c34379a894b29d857fc4fd~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[git常用命令]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html</guid>
+            <pubDate>Sat, 03 Jun 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/deafd97cd4b44f2093f690e61f3175a8~tplv-k3u1fbpfcp-zoom-1.image">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[随想(一)]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html</guid>
+            <pubDate>Mon, 20 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[随想(二)]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html</guid>
+            <pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[随想(三)]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html</guid>
+            <pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[大屏可配置参数]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html</guid>
+            <pubDate>Wed, 01 Feb 2023 00:00:00 GMT</pubDate>
+            <enclosure url="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ba5226ceed2242bfb86267c4a077ce29~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[echart踩坑记录(一)]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html</guid>
+            <pubDate>Thu, 02 Jun 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0888a893799341d48d25fa6d97594aee~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[echart踩坑记录(二)]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html</guid>
+            <pubDate>Fri, 02 Sep 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e3dfb7a6e961409cb26fccf7584d7e45~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[第一天 Blender操作 | 大帅老猿threejs特训]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html</guid>
+            <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e5aee5ebd0e43ad9efe4f810b49fdb9~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[第二天 创建自己的展馆模型 | 大帅老猿threejs特训]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html</guid>
+            <pubDate>Sun, 11 Dec 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca3ab98be7224ea5bb3b9d6bb720c19e~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Blender学习记录]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html</guid>
+            <pubDate>Fri, 18 Mar 2022 00:00:00 GMT</pubDate>
+            <enclosure url="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03fa3834fc2240068747b49d2e72448a~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[PS学习记录]]></title>
+            <link>https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html</link>
+            <guid>https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html</guid>
+            <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+            <enclosure url="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d9b8f6925394c769020365612ce7c58~tplv-k3u1fbpfcp-watermark.image?">
+            </enclosure>
+        </item>
+    </channel>
+</rss>

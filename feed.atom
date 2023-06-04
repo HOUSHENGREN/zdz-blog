@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://houshengren.github.io/zdz-blog</id>
+    <title>zdz&apos;s blogs</title>
+    <updated>2023-06-04T06:18:24.038Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://houshengren.github.io/zdz-blog"/>
+    <link rel="self" href="https://houshengren.github.io/zdz-blog/feed.atom"/>
+    <subtitle>😁🤞😁</subtitle>
+    <entry>
+        <title type="html"><![CDATA[对象数组去重]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html">
+        </link>
+        <updated>2022-11-06T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[空气炸锅从入门到入门]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html">
+        </link>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[键盘侠番外篇]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html">
+        </link>
+        <updated>2022-10-14T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vscode插件及新电脑配置]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html">
+        </link>
+        <updated>2022-08-03T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[vscode如何使用vim]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html">
+        </link>
+        <updated>2022-08-11T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[踩坑记录]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html">
+        </link>
+        <updated>2022-10-11T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[web打印]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html">
+        </link>
+        <updated>2023-03-23T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[二维码组件二次封装]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html">
+        </link>
+        <updated>2022-05-02T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大屏项目的文字滚动组件实现]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html">
+        </link>
+        <updated>2022-05-11T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[git常用命令]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html">
+        </link>
+        <updated>2023-06-03T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随想(一)]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html">
+        </link>
+        <updated>2023-03-20T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随想(二)]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html">
+        </link>
+        <updated>2023-03-26T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随想(三)]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html">
+        </link>
+        <updated>2023-04-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大屏可配置参数]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html">
+        </link>
+        <updated>2023-02-01T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[echart踩坑记录(一)]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html">
+        </link>
+        <updated>2022-06-02T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[echart踩坑记录(二)]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html">
+        </link>
+        <updated>2022-09-02T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一天 Blender操作 | 大帅老猿threejs特训]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html">
+        </link>
+        <updated>2022-11-18T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第二天 创建自己的展馆模型 | 大帅老猿threejs特训]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html">
+        </link>
+        <updated>2022-12-11T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blender学习记录]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html">
+        </link>
+        <updated>2022-03-18T00:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PS学习记录]]></title>
+        <id>https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html</id>
+        <link href="https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html">
+        </link>
+        <updated>2021-07-12T00:00:00.000Z</updated>
+    </entry>
+</feed>

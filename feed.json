@@ -1,0 +1,142 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "zdz's blogs",
+    "home_page_url": "https://houshengren.github.io/zdz-blog",
+    "feed_url": "https://houshengren.github.io/zdz-blog/feed.json",
+    "description": "😁🤞😁",
+    "items": [
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/11/06/algorithm-001.html",
+            "title": "对象数组去重",
+            "date_modified": "2022-11-06T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/06/01/daily-life-001.html",
+            "title": "空气炸锅从入门到入门",
+            "date_modified": "2023-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/10/14/efficient-keyboard-man.html",
+            "title": "键盘侠番外篇",
+            "date_modified": "2022-10-14T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/08/03/efficient-vscode-config.html",
+            "title": "vscode插件及新电脑配置",
+            "image": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9909670b73e0406583c8e96b113c7b03~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-08-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/08/11/efficient-vscode-vim.html",
+            "title": "vscode如何使用vim",
+            "image": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5b2e0ca15b22465dad9fffb498f47f5c~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-08-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/10/11/experience-false.html",
+            "title": "踩坑记录",
+            "image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bbef75c8e19a4f5f822224f138c18f36~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-10-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/03/23/experience-print.html",
+            "title": "web打印",
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/961e45899a544ee890b7dc99a1863474~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2023-03-23T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/05/02/experience-qrcode.html",
+            "title": "二维码组件二次封装",
+            "date_modified": "2022-05-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/05/11/experience-scroll-text.html",
+            "title": "大屏项目的文字滚动组件实现",
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/648e654442c34379a894b29d857fc4fd~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-05-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/06/03/git-001.html",
+            "title": "git常用命令",
+            "image": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/deafd97cd4b44f2093f690e61f3175a8~tplv-k3u1fbpfcp-zoom-1.image",
+            "date_modified": "2023-06-03T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/03/20/notes-001.html",
+            "title": "随想(一)",
+            "date_modified": "2023-03-20T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/03/26/notes-002.html",
+            "title": "随想(二)",
+            "date_modified": "2023-03-26T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/04/01/notes-003.html",
+            "title": "随想(三)",
+            "date_modified": "2023-04-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2023/02/01/screen-config-params.html",
+            "title": "大屏可配置参数",
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ba5226ceed2242bfb86267c4a077ce29~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2023-02-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/06/02/screen-echart01.html",
+            "title": "echart踩坑记录(一)",
+            "image": "https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0888a893799341d48d25fa6d97594aee~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-06-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/09/02/screen-echart02.html",
+            "title": "echart踩坑记录(二)",
+            "image": "https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e3dfb7a6e961409cb26fccf7584d7e45~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-09-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/11/18/study-001.html",
+            "title": "第一天 Blender操作 | 大帅老猿threejs特训",
+            "image": "https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5e5aee5ebd0e43ad9efe4f810b49fdb9~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-11-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/12/11/study-002.html",
+            "title": "第二天 创建自己的展馆模型 | 大帅老猿threejs特训",
+            "image": "https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca3ab98be7224ea5bb3b9d6bb720c19e~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-12-11T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2022/03/18/study-blender.html",
+            "title": "Blender学习记录",
+            "image": "https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/03fa3834fc2240068747b49d2e72448a~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2022-03-18T00:00:00.000Z"
+        },
+        {
+            "id": "https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html",
+            "url": "https://houshengren.github.io/zdz-blog/post/2021/07/12/study-ps.html",
+            "title": "PS学习记录",
+            "image": "https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d9b8f6925394c769020365612ce7c58~tplv-k3u1fbpfcp-watermark.image?",
+            "date_modified": "2021-07-12T00:00:00.000Z"
+        }
+    ]
+}
